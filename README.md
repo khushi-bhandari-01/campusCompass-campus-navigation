@@ -114,8 +114,8 @@ cd ../frontend && npm run build     # production build check
 Full steps: [docs/VERCEL_DEPLOYMENT.md](docs/VERCEL_DEPLOYMENT.md).
 
 ### Live links
-- Frontend (Vercel): _add your URL_
-- Backend (Render): _add your URL_
+- Frontend (Vercel): https://campus-compass-campus-navigation.vercel.app/
+- Backend (Render): https://campuscompass-campus-navigation.onrender.com/
 - GitHub repository: https://github.com/khushi-bhandari-01/campusCompass-campus-navigation
 
 ## Known limitations
