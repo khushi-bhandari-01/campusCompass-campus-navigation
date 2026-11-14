@@ -1,0 +1,1112 @@
+{
+ "meta": {
+  "name": "NSUT Campus (schematic)",
+  "width": 900,
+  "height": 640,
+  "meters_per_unit": 0.8,
+  "note": "Redrawn from the NSUT campus map. Edge weight = Euclidean length x factor (factor >= 1), so the Euclidean heuristic is admissible and consistent. Distances are approximate."
+ },
+ "nodes": [
+  {
+   "id": "G_NORTH",
+   "name": "North Gate",
+   "type": "gate",
+   "x": 76,
+   "y": 12
+  },
+  {
+   "id": "G_MAIN",
+   "name": "Main Gate",
+   "type": "gate",
+   "x": 76,
+   "y": 460
+  },
+  {
+   "id": "J1",
+   "name": "Junction 1",
+   "type": "junction",
+   "x": 79,
+   "y": 52
+  },
+  {
+   "id": "J2",
+   "name": "Junction 2",
+   "type": "junction",
+   "x": 95,
+   "y": 190
+  },
+  {
+   "id": "J3",
+   "name": "Junction 3",
+   "type": "junction",
+   "x": 104,
+   "y": 368
+  },
+  {
+   "id": "J4",
+   "name": "Junction 4",
+   "type": "junction",
+   "x": 110,
+   "y": 512
+  },
+  {
+   "id": "J5",
+   "name": "Junction 5",
+   "type": "junction",
+   "x": 250,
+   "y": 187
+  },
+  {
+   "id": "J6",
+   "name": "Junction 6",
+   "type": "junction",
+   "x": 250,
+   "y": 342
+  },
+  {
+   "id": "J7",
+   "name": "Junction 7",
+   "type": "junction",
+   "x": 354,
+   "y": 503
+  },
+  {
+   "id": "J8",
+   "name": "Junction 8",
+   "type": "junction",
+   "x": 634,
+   "y": 489
+  },
+  {
+   "id": "J9",
+   "name": "Junction 9",
+   "type": "junction",
+   "x": 695,
+   "y": 480
+  },
+  {
+   "id": "J10",
+   "name": "Junction 10",
+   "type": "junction",
+   "x": 689,
+   "y": 316
+  },
+  {
+   "id": "J11",
+   "name": "Junction 11",
+   "type": "junction",
+   "x": 561,
+   "y": 314
+  },
+  {
+   "id": "J12",
+   "name": "Junction 12",
+   "type": "junction",
+   "x": 525,
+   "y": 26
+  },
+  {
+   "id": "J13",
+   "name": "Junction 13",
+   "type": "junction",
+   "x": 307,
+   "y": 26
+  },
+  {
+   "id": "J14",
+   "name": "Junction 14",
+   "type": "junction",
+   "x": 159,
+   "y": 34
+  },
+  {
+   "id": "J15",
+   "name": "Junction 15",
+   "type": "junction",
+   "x": 543,
+   "y": 213
+  },
+  {
+   "id": "J16",
+   "name": "Junction 16",
+   "type": "junction",
+   "x": 689,
+   "y": 218
+  },
+  {
+   "id": "J17",
+   "name": "Junction 17",
+   "type": "junction",
+   "x": 299,
+   "y": 153
+  },
+  {
+   "id": "J18",
+   "name": "Junction 18",
+   "type": "junction",
+   "x": 390,
+   "y": 130
+  },
+  {
+   "id": "J19",
+   "name": "Junction 19",
+   "type": "junction",
+   "x": 445,
+   "y": 123
+  },
+  {
+   "id": "J20",
+   "name": "Junction 20",
+   "type": "junction",
+   "x": 274,
+   "y": 429
+  },
+  {
+   "id": "E_AMUL",
+   "name": "Amul Ground entrance",
+   "type": "entrance",
+   "x": 232,
+   "y": 31
+  },
+  {
+   "id": "E_APJ",
+   "name": "APJ Halls entrance",
+   "type": "entrance",
+   "x": 362,
+   "y": 26
+  },
+  {
+   "id": "E_SMART",
+   "name": "Smart Block entrance",
+   "type": "entrance",
+   "x": 464,
+   "y": 26
+  },
+  {
+   "id": "E_CLINIC",
+   "name": "Clinic entrance",
+   "type": "entrance",
+   "x": 534,
+   "y": 121
+  },
+  {
+   "id": "E_N1",
+   "name": "NESCII 1 entrance",
+   "type": "entrance",
+   "x": 250,
+   "y": 273
+  },
+  {
+   "id": "E_N2",
+   "name": "NESCII 2 entrance",
+   "type": "entrance",
+   "x": 232,
+   "y": 347
+  },
+  {
+   "id": "E_ADM",
+   "name": "Admin entrance",
+   "type": "entrance",
+   "x": 307,
+   "y": 323
+  },
+  {
+   "id": "E_AUDI",
+   "name": "Main Auditorium entrance",
+   "type": "entrance",
+   "x": 354,
+   "y": 323
+  },
+  {
+   "id": "E_B6",
+   "name": "Block 6 entrance",
+   "type": "entrance",
+   "x": 427,
+   "y": 321
+  },
+  {
+   "id": "E_B4",
+   "name": "Block 4 entrance",
+   "type": "entrance",
+   "x": 471,
+   "y": 323
+  },
+  {
+   "id": "E_FNT",
+   "name": "Fountain entrance",
+   "type": "entrance",
+   "x": 517,
+   "y": 321
+  },
+  {
+   "id": "E_B5",
+   "name": "Block 5 entrance",
+   "type": "entrance",
+   "x": 586,
+   "y": 314
+  },
+  {
+   "id": "E_LIB",
+   "name": "SAC Library entrance",
+   "type": "entrance",
+   "x": 627,
+   "y": 307
+  },
+  {
+   "id": "E_BB",
+   "name": "Basketball Court entrance",
+   "type": "entrance",
+   "x": 698,
+   "y": 356
+  },
+  {
+   "id": "E_TRACK",
+   "name": "Running Track entrance",
+   "type": "entrance",
+   "x": 702,
+   "y": 454
+  },
+  {
+   "id": "E_CBT",
+   "name": "CBT & Mini Auditorium entrance",
+   "type": "entrance",
+   "x": 569,
+   "y": 496
+  },
+  {
+   "id": "E_CRICKET",
+   "name": "Cricket Ground entrance",
+   "type": "entrance",
+   "x": 732,
+   "y": 222
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "source": "G_NORTH",
+   "target": "J1",
+   "weight": 40.2,
+   "kind": "road"
+  },
+  {
+   "id": "e2",
+   "source": "J1",
+   "target": "J2",
+   "weight": 139.0,
+   "kind": "road"
+  },
+  {
+   "id": "e3",
+   "source": "J2",
+   "target": "J3",
+   "weight": 178.3,
+   "kind": "road"
+  },
+  {
+   "id": "e4",
+   "source": "J3",
+   "target": "G_MAIN",
+   "weight": 96.2,
+   "kind": "road"
+  },
+  {
+   "id": "e5",
+   "source": "G_MAIN",
+   "target": "J4",
+   "weight": 62.2,
+   "kind": "road"
+  },
+  {
+   "id": "e6",
+   "source": "J1",
+   "target": "J14",
+   "weight": 82.0,
+   "kind": "road"
+  },
+  {
+   "id": "e7",
+   "source": "J14",
+   "target": "E_AMUL",
+   "weight": 73.1,
+   "kind": "road"
+  },
+  {
+   "id": "e8",
+   "source": "E_AMUL",
+   "target": "J13",
+   "weight": 75.2,
+   "kind": "road"
+  },
+  {
+   "id": "e9",
+   "source": "J13",
+   "target": "E_APJ",
+   "weight": 55.0,
+   "kind": "road"
+  },
+  {
+   "id": "e10",
+   "source": "E_APJ",
+   "target": "E_SMART",
+   "weight": 102.0,
+   "kind": "road"
+  },
+  {
+   "id": "e11",
+   "source": "E_SMART",
+   "target": "J12",
+   "weight": 61.0,
+   "kind": "road"
+  },
+  {
+   "id": "e12",
+   "source": "J12",
+   "target": "E_CLINIC",
+   "weight": 95.5,
+   "kind": "road"
+  },
+  {
+   "id": "e13",
+   "source": "E_CLINIC",
+   "target": "J15",
+   "weight": 92.5,
+   "kind": "road"
+  },
+  {
+   "id": "e14",
+   "source": "J2",
+   "target": "J5",
+   "weight": 155.1,
+   "kind": "road"
+  },
+  {
+   "id": "e15",
+   "source": "J5",
+   "target": "E_N1",
+   "weight": 86.0,
+   "kind": "road"
+  },
+  {
+   "id": "e16",
+   "source": "E_N1",
+   "target": "J6",
+   "weight": 69.0,
+   "kind": "road"
+  },
+  {
+   "id": "e17",
+   "source": "J3",
+   "target": "E_N2",
+   "weight": 129.8,
+   "kind": "road"
+  },
+  {
+   "id": "e18",
+   "source": "E_N2",
+   "target": "J6",
+   "weight": 18.7,
+   "kind": "road"
+  },
+  {
+   "id": "e19",
+   "source": "J6",
+   "target": "E_ADM",
+   "weight": 60.1,
+   "kind": "road"
+  },
+  {
+   "id": "e20",
+   "source": "E_ADM",
+   "target": "E_AUDI",
+   "weight": 47.0,
+   "kind": "road"
+  },
+  {
+   "id": "e21",
+   "source": "E_AUDI",
+   "target": "E_B6",
+   "weight": 73.1,
+   "kind": "road"
+  },
+  {
+   "id": "e22",
+   "source": "E_B6",
+   "target": "E_B4",
+   "weight": 44.1,
+   "kind": "road"
+  },
+  {
+   "id": "e23",
+   "source": "E_B4",
+   "target": "E_FNT",
+   "weight": 46.1,
+   "kind": "road"
+  },
+  {
+   "id": "e24",
+   "source": "E_FNT",
+   "target": "J11",
+   "weight": 44.6,
+   "kind": "road"
+  },
+  {
+   "id": "e25",
+   "source": "J11",
+   "target": "E_B5",
+   "weight": 25.0,
+   "kind": "road"
+  },
+  {
+   "id": "e26",
+   "source": "E_B5",
+   "target": "E_LIB",
+   "weight": 41.6,
+   "kind": "road"
+  },
+  {
+   "id": "e27",
+   "source": "E_LIB",
+   "target": "J10",
+   "weight": 62.7,
+   "kind": "road"
+  },
+  {
+   "id": "e28",
+   "source": "J11",
+   "target": "J15",
+   "weight": 102.6,
+   "kind": "road"
+  },
+  {
+   "id": "e29",
+   "source": "J15",
+   "target": "J16",
+   "weight": 146.1,
+   "kind": "road"
+  },
+  {
+   "id": "e30",
+   "source": "J16",
+   "target": "J10",
+   "weight": 98.0,
+   "kind": "road"
+  },
+  {
+   "id": "e31",
+   "source": "J16",
+   "target": "E_CRICKET",
+   "weight": 43.2,
+   "kind": "road"
+  },
+  {
+   "id": "e32",
+   "source": "J10",
+   "target": "E_BB",
+   "weight": 41.0,
+   "kind": "road"
+  },
+  {
+   "id": "e33",
+   "source": "E_BB",
+   "target": "E_TRACK",
+   "weight": 98.1,
+   "kind": "road"
+  },
+  {
+   "id": "e34",
+   "source": "E_TRACK",
+   "target": "J9",
+   "weight": 27.0,
+   "kind": "road"
+  },
+  {
+   "id": "e35",
+   "source": "J4",
+   "target": "J7",
+   "weight": 244.2,
+   "kind": "road"
+  },
+  {
+   "id": "e36",
+   "source": "J7",
+   "target": "E_CBT",
+   "weight": 215.2,
+   "kind": "road"
+  },
+  {
+   "id": "e37",
+   "source": "E_CBT",
+   "target": "J8",
+   "weight": 65.4,
+   "kind": "road"
+  },
+  {
+   "id": "e38",
+   "source": "J8",
+   "target": "J9",
+   "weight": 61.7,
+   "kind": "road"
+  },
+  {
+   "id": "e39",
+   "source": "J5",
+   "target": "J17",
+   "weight": 65.6,
+   "kind": "road"
+  },
+  {
+   "id": "e40",
+   "source": "J17",
+   "target": "J18",
+   "weight": 103.2,
+   "kind": "road"
+  },
+  {
+   "id": "e41",
+   "source": "J18",
+   "target": "J19",
+   "weight": 61.0,
+   "kind": "road"
+  },
+  {
+   "id": "e42",
+   "source": "J19",
+   "target": "J15",
+   "weight": 146.4,
+   "kind": "road"
+  },
+  {
+   "id": "e43",
+   "source": "J6",
+   "target": "J20",
+   "weight": 94.8,
+   "kind": "shortcut"
+  },
+  {
+   "id": "e44",
+   "source": "J20",
+   "target": "J7",
+   "weight": 114.4,
+   "kind": "shortcut"
+  }
+ ],
+ "locations": [
+  {
+   "id": "north_gate",
+   "name": "North Gate",
+   "type": "gate",
+   "node": "G_NORTH",
+   "x": 76,
+   "y": 12
+  },
+  {
+   "id": "main_gate",
+   "name": "Main Gate",
+   "type": "gate",
+   "node": "G_MAIN",
+   "x": 76,
+   "y": 460
+  },
+  {
+   "id": "amul",
+   "name": "Amul Ground",
+   "type": "ground",
+   "node": "E_AMUL",
+   "x": 232,
+   "y": 31
+  },
+  {
+   "id": "apj_halls",
+   "name": "APJ Halls",
+   "type": "building",
+   "node": "E_APJ",
+   "x": 362,
+   "y": 26
+  },
+  {
+   "id": "smart_block",
+   "name": "Smart Block",
+   "type": "building",
+   "node": "E_SMART",
+   "x": 464,
+   "y": 26
+  },
+  {
+   "id": "clinic",
+   "name": "Clinic",
+   "type": "building",
+   "node": "E_CLINIC",
+   "x": 534,
+   "y": 121
+  },
+  {
+   "id": "nescii1",
+   "name": "NESCII 1",
+   "type": "building",
+   "node": "E_N1",
+   "x": 250,
+   "y": 273
+  },
+  {
+   "id": "nescii2",
+   "name": "NESCII 2",
+   "type": "building",
+   "node": "E_N2",
+   "x": 232,
+   "y": 347
+  },
+  {
+   "id": "admin",
+   "name": "Admin",
+   "type": "building",
+   "node": "E_ADM",
+   "x": 307,
+   "y": 323
+  },
+  {
+   "id": "main_audi",
+   "name": "Main Auditorium",
+   "type": "building",
+   "node": "E_AUDI",
+   "x": 354,
+   "y": 323
+  },
+  {
+   "id": "block6",
+   "name": "Block 6",
+   "type": "building",
+   "node": "E_B6",
+   "x": 427,
+   "y": 321
+  },
+  {
+   "id": "block4",
+   "name": "Block 4",
+   "type": "building",
+   "node": "E_B4",
+   "x": 471,
+   "y": 323
+  },
+  {
+   "id": "fountain",
+   "name": "Fountain",
+   "type": "building",
+   "node": "E_FNT",
+   "x": 517,
+   "y": 321
+  },
+  {
+   "id": "block5",
+   "name": "Block 5",
+   "type": "building",
+   "node": "E_B5",
+   "x": 586,
+   "y": 314
+  },
+  {
+   "id": "library",
+   "name": "SAC Library",
+   "type": "building",
+   "node": "E_LIB",
+   "x": 627,
+   "y": 307
+  },
+  {
+   "id": "basketball",
+   "name": "Basketball Court",
+   "type": "building",
+   "node": "E_BB",
+   "x": 698,
+   "y": 356
+  },
+  {
+   "id": "running_track",
+   "name": "Running Track",
+   "type": "ground",
+   "node": "E_TRACK",
+   "x": 702,
+   "y": 454
+  },
+  {
+   "id": "cbt",
+   "name": "CBT & Mini Auditorium",
+   "type": "building",
+   "node": "E_CBT",
+   "x": 569,
+   "y": 496
+  },
+  {
+   "id": "cricket",
+   "name": "Cricket Ground",
+   "type": "ground",
+   "node": "E_CRICKET",
+   "x": 732,
+   "y": 222
+  }
+ ],
+ "buildings": [
+  {
+   "id": "amul",
+   "name": "Amul Ground",
+   "label_lines": [
+    "Amul",
+    "Ground"
+   ],
+   "description": "Open ground",
+   "x": 161,
+   "y": 54,
+   "w": 142,
+   "h": 124,
+   "entrance": "E_AMUL",
+   "kind": "ground"
+  },
+  {
+   "id": "apj_halls",
+   "name": "APJ Halls",
+   "label_lines": [
+    "APJ",
+    "Halls"
+   ],
+   "description": "APJ Halls",
+   "x": 315,
+   "y": 49,
+   "w": 95,
+   "h": 60,
+   "entrance": "E_APJ"
+  },
+  {
+   "id": "smart_block",
+   "name": "Smart Block",
+   "label_lines": [
+    "Smart",
+    "Block"
+   ],
+   "description": "Smart Block",
+   "x": 429,
+   "y": 49,
+   "w": 69,
+   "h": 51,
+   "entrance": "E_SMART"
+  },
+  {
+   "id": "clinic",
+   "name": "Clinic",
+   "label_lines": [
+    "Clinic"
+   ],
+   "description": "Campus clinic",
+   "x": 559,
+   "y": 100,
+   "w": 58,
+   "h": 30,
+   "entrance": "E_CLINIC"
+  },
+  {
+   "id": "nescii1",
+   "name": "NESCII 1",
+   "label_lines": [
+    "NESCII 1"
+   ],
+   "description": "NESCII 1",
+   "x": 116,
+   "y": 213,
+   "w": 116,
+   "h": 121,
+   "entrance": "E_N1"
+  },
+  {
+   "id": "nescii2",
+   "name": "NESCII 2",
+   "label_lines": [
+    "NESCII 2"
+   ],
+   "description": "NESCII 2",
+   "x": 198,
+   "y": 368,
+   "w": 68,
+   "h": 39,
+   "entrance": "E_N2"
+  },
+  {
+   "id": "admin",
+   "name": "Admin",
+   "label_lines": [
+    "Admin"
+   ],
+   "description": "Administrative offices",
+   "x": 281,
+   "y": 264,
+   "w": 56,
+   "h": 42,
+   "entrance": "E_ADM"
+  },
+  {
+   "id": "main_audi",
+   "name": "Main Auditorium",
+   "label_lines": [
+    "Main",
+    "Audi"
+   ],
+   "description": "Main auditorium",
+   "x": 327,
+   "y": 348,
+   "w": 54,
+   "h": 44,
+   "entrance": "E_AUDI"
+  },
+  {
+   "id": "block6",
+   "name": "Block 6",
+   "label_lines": [
+    "Block 6"
+   ],
+   "description": "Academic Block 6",
+   "x": 376,
+   "y": 233,
+   "w": 102,
+   "h": 58,
+   "entrance": "E_B6"
+  },
+  {
+   "id": "block4",
+   "name": "Block 4",
+   "label_lines": [
+    "Block 4"
+   ],
+   "description": "Academic Block 4",
+   "x": 415,
+   "y": 351,
+   "w": 112,
+   "h": 76,
+   "entrance": "E_B4"
+  },
+  {
+   "id": "fountain",
+   "name": "Fountain",
+   "label_lines": [
+    "Fountain"
+   ],
+   "description": "Central fountain",
+   "x": 490,
+   "y": 284,
+   "w": 54,
+   "h": 25,
+   "entrance": "E_FNT"
+  },
+  {
+   "id": "block5",
+   "name": "Block 5",
+   "label_lines": [
+    "Block 5"
+   ],
+   "description": "Academic Block 5",
+   "x": 534,
+   "y": 348,
+   "w": 103,
+   "h": 69,
+   "entrance": "E_B5"
+  },
+  {
+   "id": "library",
+   "name": "SAC Library",
+   "label_lines": [
+    "SAC",
+    "Library"
+   ],
+   "description": "Student Activity Centre and library",
+   "x": 583,
+   "y": 238,
+   "w": 88,
+   "h": 51,
+   "entrance": "E_LIB"
+  },
+  {
+   "id": "basketball",
+   "name": "Basketball Court",
+   "label_lines": [
+    "Basketball",
+    "Court"
+   ],
+   "description": "Basketball court",
+   "x": 727,
+   "y": 316,
+   "w": 73,
+   "h": 72,
+   "entrance": "E_BB"
+  },
+  {
+   "id": "running_track",
+   "name": "Running Track",
+   "label_lines": [
+    "Running",
+    "Track"
+   ],
+   "description": "Running track",
+   "x": 727,
+   "y": 406,
+   "w": 122,
+   "h": 161,
+   "entrance": "E_TRACK",
+   "kind": "ground"
+  },
+  {
+   "id": "cbt",
+   "name": "CBT & Mini Auditorium",
+   "label_lines": [
+    "CBT &",
+    "Mini Audi"
+   ],
+   "description": "CBT centre and mini auditorium",
+   "x": 531,
+   "y": 427,
+   "w": 75,
+   "h": 34,
+   "entrance": "E_CBT"
+  },
+  {
+   "id": "cricket",
+   "name": "Cricket Ground",
+   "label_lines": [
+    "Cricket",
+    "Ground"
+   ],
+   "description": "Cricket ground",
+   "x": 759,
+   "y": 121,
+   "w": 110,
+   "h": 115,
+   "entrance": "E_CRICKET",
+   "kind": "ground"
+  }
+ ],
+ "green_spaces": [
+  {
+   "id": "south_field",
+   "name": "South Field",
+   "x": 488,
+   "y": 512,
+   "w": 214,
+   "h": 98,
+   "label_x": 595,
+   "label_y": 600
+  }
+ ],
+ "trees": [
+  {
+   "x": 580,
+   "y": 541,
+   "r": 9
+  },
+  {
+   "x": 664,
+   "y": 528,
+   "r": 6
+  },
+  {
+   "x": 635,
+   "y": 534,
+   "r": 8
+  },
+  {
+   "x": 647,
+   "y": 529,
+   "r": 7
+  },
+  {
+   "x": 507,
+   "y": 533,
+   "r": 9
+  },
+  {
+   "x": 605,
+   "y": 530,
+   "r": 7
+  },
+  {
+   "x": 521,
+   "y": 576,
+   "r": 6
+  },
+  {
+   "x": 642,
+   "y": 537,
+   "r": 7
+  },
+  {
+   "x": 659,
+   "y": 529,
+   "r": 9
+  },
+  {
+   "x": 28,
+   "y": 70,
+   "r": 6
+  },
+  {
+   "x": 30,
+   "y": 300,
+   "r": 7
+  },
+  {
+   "x": 34,
+   "y": 420,
+   "r": 6
+  },
+  {
+   "x": 40,
+   "y": 560,
+   "r": 7
+  },
+  {
+   "x": 800,
+   "y": 40,
+   "r": 8
+  },
+  {
+   "x": 860,
+   "y": 120,
+   "r": 9
+  },
+  {
+   "x": 700,
+   "y": 70,
+   "r": 7
+  },
+  {
+   "x": 870,
+   "y": 470,
+   "r": 6
+  },
+  {
+   "x": 840,
+   "y": 590,
+   "r": 8
+  },
+  {
+   "x": 24,
+   "y": 610,
+   "r": 7
+  },
+  {
+   "x": 760,
+   "y": 215,
+   "r": 6
+  },
+  {
+   "x": 180,
+   "y": 600,
+   "r": 7
+  },
+  {
+   "x": 250,
+   "y": 20,
+   "r": 8
+  },
+  {
+   "x": 560,
+   "y": 40,
+   "r": 6
+  }
+ ]
+}
